@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(132deg, rgba(0,0,0,1) 5%, rgba(0,79,147,1) 97%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.box {
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 25rem;
+    height: 34rem;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.BtnF {
+
+    color: aliceblue;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+   
+    width: 150px;
+    height: 50px;
+    border: none;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(10, 87, 231);
+   
+   transition: all .3s;
+
+}
+
+.BtnF:active,
+.BtnF:hover{
+    background: none;
+    background: linear-gradient(132deg, rgba(0,0,0,1) 5%, rgba(0,79,147,1) 97%);
+    outline: 0;
+    scale: 0.85
+}
+
+
+.redes{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+
+.BtnG {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Montserrat';
+    border: none;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 1px 1px 6px rgb(104, 104, 104);
+   transition: all .3s;
+   
+}
+
+.BtnG:active,
+.BtnG:hover{
+    outline: 0;
+    scale: 0.85
+}
+
+
+#logos{
+    
+    margin-right: 5px;
+    width: 28px;
+}
+.inputForm {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.sign{
+    border-radius: 8px;
+    width: 305px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    font-family: 'Montserrat';
+    margin-bottom: 80px;
+    border: none;
+    transition: all .3s;
+}
+
+.sign:active,
+.sign:hover{
+    outline: 0;
+    scale: 0.85
+    
+}
+
+input{
+    width: 305px;
+    height: 40px;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
