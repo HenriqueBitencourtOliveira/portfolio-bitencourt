@@ -51,8 +51,8 @@ h2{
 }
 
 .btns{
-    columns:15;
-    
+    display: flex;
+    margin-right: 10px; 
 }
 
 a{
@@ -109,4 +109,19 @@ a:hover{
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 1000px){
+    .btns{
+        display: flex
+        
+    }
+    h2{
+        font-size: 20pt;
+    }
+    .txt{
+        width: 500px;
+        height: 300px;
+        font-size: 16pt;
+    }
 }
