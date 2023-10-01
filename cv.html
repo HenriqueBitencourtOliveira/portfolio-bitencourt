@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/cv.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="css/cv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="loading-screen">
-        <div class="loading-spinner">
-
-        </div>
+      <div class="loading-spinner"></div>
     </div>
+    <main>
+      <section>
+        <div class="content">
+          <h2><strong class="myTitle">Um pouco sobre mim</strong></h2>
 
-
-    <div class="content">
-        <h2><Strong class="myTitle">Um pouco sobre mim</Strong></h2>
-
-        <div class="txt">
-            <p class="myTxt">Me chamo Henrique sou um estudante de Engenharia de Software no 6º período, com 22 anos de idade.
-                Estou em constantes buscas por oportunidades para aplicar meus conhecimentos, habilidades e que desejo
-                adquirir novas habilidades no campo da Engenharia de Software.
-                Se você está procurando um profissional dedicado, está no lugar certo!
+          <div class="txt">
+            <p class="myTxt">
+              Me chamo Henrique sou um estudante de Engenharia de Software no 6º
+              período, com 22 anos de idade. Estou em constantes buscas por
+              oportunidades para aplicar meus conhecimentos, habilidades e que
+              desejo adquirir novas habilidades no campo da Engenharia de
+              Software. Se você está procurando um profissional dedicado, está
+              no lugar certo!
             </p>
+          </div>
+
+          <div class="btns">
+            <a href="./documents/Currículo - Henrique Bitencourt.pdf"
+              ><img
+                src="img/demography_FILL0_wght400_GRAD0_opsz24.png"
+                style="margin-right: 5px"
+                id="curriculo"
+              />
+              Cv</a
+            >
+
+            <button class="exit" id="exit" style="margin-left: 10px">
+              Sair
+            </button>
+          </div>
         </div>
-
-
-
-        <div class="btns">
-            <a href="./documents/Currículo - Henrique Bitencourt.pdf"><img src="img/demography_FILL0_wght400_GRAD0_opsz24.png" style="margin-right: 5px;"
-                    id="curriculo"> Cv</a>
-
-            <button class="exit" id="exit" style="margin-left: 10px;">Sair</button>
+      </section>
+      <section class="work-principal">
+          <h2>Works</h2>
+        <div class="work">
+          <a href="PETLIFE/index.html">
+            <img src="img/capa PetLife.png" alt="" width="300" height="180"
+          /></a>
         </div>
-    </div>
+      </section>
+    </main>
     <script src="js/cv.js"></script>
-</body>
-
+  </body>
 </html>

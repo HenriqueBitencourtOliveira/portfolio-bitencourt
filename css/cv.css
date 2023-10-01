@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: rgb(0,0,0);
     background: linear-gradient(132deg, rgba(0,0,0,1) 5%, rgba(0,79,147,1) 97%);
@@ -15,10 +21,35 @@ body{
     margin-top: 50px;
     display: none;
 }
+
+.work{
+    display: none;
+    color: white;
+    font-family: 'roboto';
+    font-weight: 200;
+    align-items: center;
+    gap: 64px;
+    padding: 74px 148px;
+}
+.work img{
+    border-radius: 8px;
+    
+}
+
+.work-principal h2{
+    display: none;
+    color: white;
+    font-family: 'roboto';
+    font-weight: 200;
+    margin-left: 50px;
+    padding-top: 64px;
+}
+
 h2{
     font-size: 25pt;
 }
 .txt{
+    padding-top: 16px;
     width: 700px;
     height: 300px;
     font-size:18pt;
@@ -111,7 +142,7 @@ a:hover{
     100% { transform: rotate(360deg); }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 900px){
     .btns{
         display: flex
         
@@ -120,8 +151,9 @@ a:hover{
         font-size: 20pt;
     }
     .txt{
-        width: 500px;
-        height: 300px;
+        padding-top: 16px;
+        width: 320px;
+        height: 500px;
         font-size: 16pt;
     }
 }

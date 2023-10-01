@@ -1,7 +1,8 @@
 setTimeout(function() {
     document.querySelector('.loading-screen').style.display = 'none';
     document.querySelector('.content').style.display = 'block';
-    
+    document.querySelector('.work-principal h2').style.display = 'block';
+    document.querySelector('.work').style.display = 'block';
     const myTxt = document.querySelector('.myTxt');
     typeWriter(myTxt);
 }, 2000);
