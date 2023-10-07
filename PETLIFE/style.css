@@ -18,7 +18,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
 }
 
 header nav a {
@@ -188,3 +188,46 @@ footer p a {
 #copyright a {
     color: #FF9A6C;
 }
+/* Estilos para telas menores ou iguais a 900px */
+
+@media screen and (max-width: 768px) {
+
+    body{
+        overflow-y: hidden;
+    }
+    header {
+        padding-left: 10px;
+        padding-right: 50px;
+    
+    }
+    header nav a {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    #inicio{
+        /* topo, direita, baixo, esquerda */
+        padding: 12px 10px 24px 5px;
+    }
+
+    #inicio img{
+       display: none;
+    }
+
+    #clinica{
+        padding: 12px 10px 24px 5px;
+    }
+    #clinica img{
+        display: none;
+    }
+
+    #farmacia{
+        padding: 12px 10px 24px 5px;
+    }
+
+    #farmacia img{
+        display: none;
+    }
+
+}
+    
