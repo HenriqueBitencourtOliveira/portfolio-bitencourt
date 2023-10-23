@@ -19,7 +19,7 @@ body{
     
     font-family: 'Roboto';
     color: #f3f3f3;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -80,8 +80,8 @@ h2{
    display: flex;
     justify-content: center;
    align-items: center;
-    background-color: rgb(104, 104, 104);
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Montserrat';
     font-weight: 600;
     border: none;
@@ -101,6 +101,15 @@ h2{
 .btns{
     display: flex;
     margin-right: 10px; 
+    gap: 20px;
+}
+
+.hidden{
+    overflow: auto;
+}
+.btns img{
+    width: 30px;
+    height: 30px;
 }
 
 a{
@@ -111,8 +120,8 @@ a{
    display: flex;
     justify-content: center;
    align-items: center;
-    background-color: rgb(104, 104, 104);
-    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Montserrat';
     font-weight: 600;
     border: none;
@@ -150,6 +159,7 @@ a:hover{
     border-top: 4px solid #3498db; /* Cria um círculo azul como a animação de carregamento */
     border-radius: 50%;
     width: 40px;
+    
     height: 40px;
     animation: spin 2s linear infinite; /* Animação de rotação infinita */
 }
@@ -162,8 +172,16 @@ a:hover{
 
 @media (max-width: 900px){
     .btns{
-        display: flex
-        
+        display: flex;
+        left: 30px;
+    }
+
+    .work-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
     h2{
         font-size: 20pt;
